@@ -2,7 +2,7 @@
 
 A sign up page for a fictional company- NATURALS.
 Even though it was suggested to add more information like- phone number, password confirmation,
-first name and last name; I have tried to make this page as user-frindly as possible.
+first name and last name; I have tried to make this page as user-friendly as possible.
 
 This entire project has been made with the use of HTML and CSS only.
 
