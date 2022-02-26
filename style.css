@@ -17,35 +17,18 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url(./honey.jpg);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: left; */
-    /* justify-content: center;
-    align-items: center; */
 }
 
 .side-image h1{
-    /* color: aqua; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: 50%; */
-    /* background-color: beige; */
-    /* align-self: center; */
     position:absolute;
     width: 100%;
     background: whitesmoke;
-  opacity: 0.5;
-  color: rgb(44, 42, 42);
-  top: 50%;
-  text-align: center;
-  font-size: 1.7rem;
-  padding: 2em 5em;
-  /* line-height: 40%; */
-  /* letter-spacing: 0.5rem; */
-  /* padding: ; */
+    opacity: 0.5;
+    color: rgb(44, 42, 42);
+    top: 50%;
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 2em 5em;
 }
 
 sup {
@@ -55,26 +38,18 @@ sup {
 .side-image{
     background-image: url(./images/honey.jpg);
     background-size: cover;
-    /* background-color: aquamarine; */
     background-color: lavender;
-    /* height: ; */
-    /* height: 100%;
-    width: 50%; */
     height: 600px;
     width: 400px;
-    /* width: min(400px, 100%);
-	height: min(700px, 100%); */
     position: relative;
 }
 
 .form-content{
-    /* background-color: chartreuse; */
     display: flex;
     flex-direction: column;
 }
 
 .upper-info{
-    /* background-color:cadetblue; */
     background-color: azure;
     height: 7em;
     width: 25em;
@@ -83,8 +58,6 @@ sup {
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    /* justify-content: center; */
-    /* padding-left: 2em; */
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -95,7 +68,6 @@ sup {
     color: gray;
     margin-top: 0.5em;
     gap: 1.5em;
-    /* align-self: center; */
     font-size: 1.1rem;
     display: flex;
     justify-content: flex-start;
@@ -112,20 +84,14 @@ sup {
 
 
 .sign-up-info{
-    /* background-color: crimson; */
-    /* background-color: azure; */
     background-color: rgb(194, 134, 219);
-    /* background-color: rgb(204, 129, 236); */
     height: 30.4em;
     display: flex;
     justify-content: center;
-    /* flex-direction: column;
-    flex-wrap: wrap; */
     padding: 5%;
 }
 
 .main-form{
-    /* background-color: darkgoldenrod; */
     border: 2px solid black;
     width: 80%;
     padding: 50px;
@@ -137,7 +103,6 @@ sup {
 
 .form-row{
   margin-bottom: 1.2em;
-  /* margin-left: 3em; */
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -146,7 +111,6 @@ sup {
 }
 
 button{
-    /* top: -5em; */
     border: none;
     cursor: pointer;
     font-size: 1rem;
@@ -159,8 +123,7 @@ button{
     border-radius: 5px;
 }
 
-button:hover { 
-    /* opacity: 0.8;  */
+button:hover {
     background-color: white;
 } 
 
@@ -178,34 +141,12 @@ button:hover {
 }
 
 .check{
-    /* display: flex; */
-    /* flex-direction: row-reverse; */
-    /* justify-content: flex-start; */
-    /* flex-direction: column; */
     margin-top: 0px;
 }
 
 .check label {
     margin-left: 0.7em;
 }
-
-/* #user-name{
-    position: relative;
-} */
-
-/* #user-name:before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    top: 0;
-    bottom: 0;
-    width: 20px;
-    background: url(https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Aaccount_circle%3A) center no-repeat;
-          }
-   */
-  /* input {
-    
-  } */
 
 input[type=text],
 input[type=password],
