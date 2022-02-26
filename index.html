@@ -4,42 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up page</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main">
-        <div class="side-image"></div>
+        <div class="side-image">
+            <h1>NATURALS<sup>TM</sup></h1>
+        </div>
         <div class="form-content">
             <div class="upper-info">
-                <h2>NATURALS</h2>
+                <h1>Create Account</h1>
+                <div class="socials">
+                    <i class="fa fa-facebook fa-lg"></i>
+                    <i class="fa fa-twitter fa-lg"></i>
+                    <i class="fa fa-google fa-lg"></i>
+                </div>
             </div>
             <div class="sign-up-info">
                 <form action="" method="post" id="main-form">
-                    <div class="form-row">
+                    <div class="form-row fontuser">
                         <!-- name -->
-                        <label for="first-name">NAME:</label>
-                        <input type="text" id="first-name">
+                        <label for="user-name"><b>Name :</b></label>
+                        <input type="text" id="user-name" placeholder=" Enter Name" required
+                        minlength="2" maxlength="15">
+                        <i class="fa fa-user fa-lg"></i>
                     </div>
-                    <div class="form-row">
+                    <div class="form-row fontemail">
                         <!-- email -->
-                        <label for="email">EMAIL:</label>
-                        <input type="email" name="email" id="email">
+                        <label for="email"><b>Email :</b></label>
+                        <input type="email" name="email" id="email" placeholder=" Enter Email" required>
+                        <i class="fa fa-at" style="font-size: 1.4rem"></i>
                     </div>
-                    <div class="form-row">
+                     <div class="form-row fontpassword">
                         <!-- password -->
-                        <label for="password">PASSWORD:</label>
-                        <input type="password" name="password" id="password">
-                    </div>
-                    <div class="form-row">
-                        <!-- checkbox -->
-                        <label for="terms-and-conditions">I agree to the terms and conditions</label>
-                        <input type="checkbox" name="checkbox" id="terms-and-conditions" selected >
+                        <label for="password"><b>Password :</b></label>
+                        <input type="password" name="password" id="password" placeholder=" Enter Password" 
+                        maxlength="12" minlength="7" required>
+                        <i class="fa fa-key fa-lg"></i>
                     </div>
                     <div class="form-row">
                         <!-- button -->
                         <label for="button"></label>
                         <button type="submit">SIGN UP</button>
+                    </div>
+                     <div class="check">
+                        <!-- checkbox -->
+                        <input type="checkbox" name="checkbox" id="checkbox" checked>
+                        <label for="checkbox">Keep me logged in</label>
                     </div>
                 </form>
             </div>
